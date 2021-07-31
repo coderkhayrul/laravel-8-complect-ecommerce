@@ -213,7 +213,7 @@ class IndexController extends Controller
         return view('frontend.product.search', compact('products', 'categories'));
     }
 
-    // Advance Search Method
+    // Advance Search Method  SCRIPT.JS FILE
     public function searchProduct(Request $request)
     {
         $request->validate(['search' => 'required']);
